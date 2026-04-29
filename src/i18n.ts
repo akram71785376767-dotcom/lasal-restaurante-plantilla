@@ -75,7 +75,7 @@ i18n.use(initReactI18next).init({
         reviews_book_now: 'Book your table',
       }
     },
-    fr: {
+        fr: {
       translation: {
         nav_home: 'Accueil', nav_menu: 'Menu', nav_reservations: 'Réservations',
         nav_about: 'À propos', nav_gallery: 'Galerie', nav_contact: 'Contact',
@@ -131,4 +131,26 @@ i18n.use(initReactI18next).init({
         about_text: 'Willkommen bei La Sal, wo kulinarische Leidenschaft auf außergewöhnliche Gastfreundschaft trifft.',
         about_award: 'Ausgezeichnet', about_community: 'Gemeinschaft', about_fresh: 'Frisch & Schnell',
         about_quote: '"Gutes Essen bringt Menschen zusammen."',
-        gallery_title: 'Galerie', gallery_subtitle: 'Erleben Sie das Ambiente von La Sal
+        gallery_title: 'Galerie', gallery_subtitle: 'Erleben Sie das Ambiente von La Sal',
+        contact_title: 'Kontakt', contact_location: 'Adresse',
+        contact_address: 'Meeresstraße 123, Torrevieja, Alicante',
+        contact_phone: 'Telefon', contact_email: 'Email', contact_hours: 'Öffnungszeiten',
+        contact_hours_text: 'Di - Do: 13:00 - 23:00\nFr - Sa: 13:00 - 00:00\nSo: 13:00 - 22:00\nMo: Geschlossen',
+        contact_name: 'Name', contact_message: 'Nachricht', contact_send: 'Senden',
+        footer_quick_links: 'Schnelllinks',
+        footer_follow: 'Folgen Sie uns',
+        footer_rights: '© 2025 La Sal Restaurant. Alle Rechte vorbehalten.',
+        reviews_title: 'Was unsere Kunden sagen',
+        reviews_based_on: 'Basierend auf',
+        reviews_google: 'Google-Bewertungen',
+        reviews_cta: 'Waren Sie schon bei uns?',
+        reviews_book_now: 'Tisch reservieren',
+      }
+    }
+  },
+  lng: 'es',
+  fallbackLng: 'es',
+  interpolation: { escapeValue: false }
+});
+
+export default i18n;
