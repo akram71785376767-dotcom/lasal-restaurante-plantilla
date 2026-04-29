@@ -32,6 +32,11 @@ i18n.use(initReactI18next).init({
         footer_quick_links: 'Enlaces rápidos',
         footer_follow: 'Síguenos',
         footer_rights: '© 2025 La Sal Restaurante. Todos los derechos reservados.',
+        reviews_title: 'Lo que dicen nuestros clientes',
+        reviews_based_on: 'Basado en',
+        reviews_google: 'reseñas de Google',
+        reviews_cta: '¿Ya has estado con nosotros?',
+        reviews_book_now: 'Reserva tu mesa',
       }
     },
     en: {
@@ -63,6 +68,11 @@ i18n.use(initReactI18next).init({
         footer_quick_links: 'Quick Links',
         footer_follow: 'Follow Us',
         footer_rights: '© 2025 La Sal Restaurant. All rights reserved.',
+        reviews_title: 'What our customers say',
+        reviews_based_on: 'Based on',
+        reviews_google: 'Google reviews',
+        reviews_cta: 'Have you been with us?',
+        reviews_book_now: 'Book your table',
       }
     },
     fr: {
@@ -94,6 +104,11 @@ i18n.use(initReactI18next).init({
         footer_quick_links: 'Liens rapides',
         footer_follow: 'Suivez-nous',
         footer_rights: '© 2025 La Sal Restaurant. Tous droits réservés.',
+        reviews_title: 'Ce que disent nos clients',
+        reviews_based_on: 'Basé sur',
+        reviews_google: 'avis Google',
+        reviews_cta: 'Êtes-vous déjà venu?',
+        reviews_book_now: 'Réservez votre table',
       }
     },
     de: {
@@ -116,21 +131,4 @@ i18n.use(initReactI18next).init({
         about_text: 'Willkommen bei La Sal, wo kulinarische Leidenschaft auf außergewöhnliche Gastfreundschaft trifft.',
         about_award: 'Ausgezeichnet', about_community: 'Gemeinschaft', about_fresh: 'Frisch & Schnell',
         about_quote: '"Gutes Essen bringt Menschen zusammen."',
-        gallery_title: 'Galerie', gallery_subtitle: 'Erleben Sie das Ambiente von La Sal',
-        contact_title: 'Kontakt', contact_location: 'Adresse',
-        contact_address: 'Meeresstraße 123, Torrevieja, Alicante',
-        contact_phone: 'Telefon', contact_email: 'Email', contact_hours: 'Öffnungszeiten',
-        contact_hours_text: 'Di - Do: 13:00 - 23:00\nFr - Sa: 13:00 - 00:00\nSo: 13:00 - 22:00\nMo: Geschlossen',
-        contact_name: 'Name', contact_message: 'Nachricht', contact_send: 'Senden',
-        footer_quick_links: 'Schnelllinks',
-        footer_follow: 'Folgen Sie uns',
-        footer_rights: '© 2025 La Sal Restaurant. Alle Rechte vorbehalten.',
-      }
-    }
-  },
-  lng: 'es',
-  fallbackLng: 'es',
-  interpolation: { escapeValue: false }
-});
-
-export default i18n;
+        gallery_title: 'Galerie', gallery_subtitle: 'Erleben Sie das Ambiente von La Sal
