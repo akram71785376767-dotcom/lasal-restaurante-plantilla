@@ -7,6 +7,7 @@ import About from './components/About';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Reviews from './components/Reviews';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,6 +54,7 @@ function App() {
       <MenuSection />
       <Reservations />
       <About />
+      <Reviews />
       <Gallery />
       <Contact />
       <Footer />
